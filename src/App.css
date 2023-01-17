@@ -12,7 +12,7 @@ main {
 }
 
 .container {
-  max-width: 80%;
+  width: 600px;
   margin: 2rem auto;
 }
 
@@ -69,8 +69,9 @@ main {
 }
 
 .meme--image {
-  max-width: 100%;
+  width: 100%;
   border-radius: 3px;
+
 }
 
 .meme--text {
