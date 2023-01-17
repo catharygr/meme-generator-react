@@ -1,14 +1,14 @@
 
-import React from 'react'
-import Header from './componentes/Header'
-import Meme from './componentes/Meme'
+import React from "react"
+import Header from "./components/Header"
+import Meme from "./components/Meme"
 import './App.css'
 
- export default function App() {
+export default function App() {
     return (
-      <main>
-      <Header />
-      <Meme />
-      </main>
+        <div className="container">
+            <Header />
+            <Meme />
+        </div>
     )
-  }
+}
